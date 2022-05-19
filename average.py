@@ -17,7 +17,6 @@ def main():
         random_number.append(single_number)
 
     # process & output
-    print("")
     average_sum = 0
     for loop_counter in range(len(random_number)):
         print("The random number is: {}".format(random_number[loop_counter]))
